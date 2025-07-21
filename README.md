@@ -27,14 +27,14 @@ Digite seu segundo número : 5
 Erro: Seu segundo numero é menor que o primeiro
 ```
 ---
-# 📁 Estrutura esperada
+## 📁 Estrutura esperada
 ```css
 src/
 ├── Contador.java
 └── ParametrosInvalidosException.java
 ```
 ---
-# 💡 Conceitos aplicados
+## 💡 Conceitos aplicados
 -Scanner para entrada de dados
 
 - try/catch para tratamento de exceções
@@ -45,6 +45,6 @@ src/
 
 - Boas práticas de código limpo
 
-# 👨‍💻 Autor
+## 👨‍💻 Autor
 Feito por Alvarengazy
 
