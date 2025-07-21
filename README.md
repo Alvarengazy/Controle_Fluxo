@@ -26,7 +26,9 @@ Digite seu primeiro número : 10
 Digite seu segundo número : 5
 Erro: Seu segundo numero é menor que o primeiro
 ```
+
 ---
+
 ## 📁 Estrutura esperada
 ```css
 src/
@@ -44,6 +46,8 @@ src/
 - Estrutura condicional if
 
 - Boas práticas de código limpo
+
+---
 
 ## 👨‍💻 Autor
 Feito por Alvarengazy
