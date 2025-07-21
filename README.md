@@ -1,18 +1,50 @@
-## Getting Started
+# Desafio: Controle de Fluxo em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto tem como objetivo exercitar os conceitos de **controle de fluxo** em Java, utilizando estruturas como `try/catch`, exceções personalizadas e laços de repetição (`for`).
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 🚀 O que o programa faz?
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Recebe **dois números inteiros** do usuário via terminal.
+- Calcula a **diferença entre os dois números**.
+- Se o **primeiro número for maior ou igual ao segundo**, o programa lança uma **exceção personalizada** (`ParametrosInvalidosException`).
+- Caso contrário, exibe a diferença e finaliza o programa com sucesso.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 🧠 Exemplo de execução
 
-## Dependency Management
+```bash
+Digite seu primeiro número : 5
+Digite seu segundo número : 10
+A diferença entre os o Primeiro numero e o Segundo é de : 5
+```
+Se o segundo número for menor que o primeiro:
+```bash
+Digite seu primeiro número : 10
+Digite seu segundo número : 5
+Erro: Seu segundo numero é menor que o primeiro
+```
+---
+# 📁 Estrutura esperada
+```css
+src/
+├── Contador.java
+└── ParametrosInvalidosException.java
+```
+---
+# 💡 Conceitos aplicados
+-Scanner para entrada de dados
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- try/catch para tratamento de exceções
+
+- Criação de uma exceção personalizada
+
+- Estrutura condicional if
+
+- Boas práticas de código limpo
+
+# 👨‍💻 Autor
+Feito por Alvarengazy
+
