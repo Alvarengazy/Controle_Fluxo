@@ -1,4 +1,4 @@
-# Desafio: Controle de Fluxo em Java
+# 📃 Desafio: Controle de Fluxo em Java
 
 Este projeto tem como objetivo exercitar os conceitos de **controle de fluxo** em Java, utilizando estruturas como `try/catch`, exceções personalizadas e laços de repetição (`for`).
 
@@ -36,7 +36,8 @@ src/
 └── ParametrosInvalidosException.java
 ```
 ---
-## 💡 Conceitos aplicados
+
+## 📌 Conceitos aplicados
 -Scanner para entrada de dados
 
 - try/catch para tratamento de exceções
